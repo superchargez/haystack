@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, TokenCl
 from transformers import pipeline
 
 
-class NER(BaseComponent):
+class EntityExtractor(BaseComponent):
     outgoing_edges = 1
 
     def __init__(self,
